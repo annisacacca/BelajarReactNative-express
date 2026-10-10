@@ -1,0 +1,9 @@
+@"
+node_modules/
+.env
+**/.env
+backend-express/uploads/
+android/build/
+android/app/build/
+android/.gradle/
+"@ | Out-File -Encoding utf8 .gitignore
